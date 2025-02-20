@@ -32,7 +32,7 @@ jobs:
 
       steps:
         - name: checkout source code
-          uses: actions/checkout@4
+          uses: actions/checkout@v4
 
         - name: setup terraform with specefic version on runner
           uses: hashicorp/setup-terraform@v2
